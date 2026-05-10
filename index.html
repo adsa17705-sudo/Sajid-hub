@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ur" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sajid Digital Hub Store</title>
+    <style>
+        :root {
+            --primary: #38bdf8;
+            --dark: #0f172a;
+            --card-bg: #1e293b;
+            --whatsapp: #25d366;
+        }
+
+        body {
+            background-color: var(--dark);
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .product-card {
+            background: var(--card-bg);
+            border-radius: 15px;
+            padding: 20px;
+            border: 1px solid rgba(56, 189, 248, 0.2);
+            text-align: center;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .product-card h2 {
+            margin-top: 0;
+            font-size: 20px;
+            color: #fff;
+        }
+
+        .price {
+            font-size: 24px;
+            color: #fbbf24;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .whatsapp-link {
+            background: var(--whatsapp);
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: 0.3s;
+        }
+
+        .whatsapp-link:hover {
+            opacity: 0.9;
+            transform: scale(1.02);
+        }
+
+        .account-info {
+            background: rgba(56, 189, 248, 0.1);
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 30px;
+            text-align: center;
+            border: 1px dashed var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Sajid Digital Hub</h1>
+        <p>پریمیم ڈیجیٹل مصنوعات</p>
+    </div>
+
+    <div class="container">
+        <div class="product-card">
+            <h2>1000+ پریمیم کورسز</h2>
+            <div class="price">Rs. 499</div>
+            <p style="font-size: 13px; color: #94a3b8;">سکلز سیکھیں اور پیسہ کمائیں</p>
+            <a href="https://api.whatsapp.com/send?phone=923285796978&text=السلام%20علیکم%20Sajid%20Digital%20Hub!%20میں%201000%2B%20کورسز%20خریدنا%20چاہتا%20ہوں۔" class="whatsapp-link">
+                ابھی خریدیں (WhatsApp)
+            </a>
+        </div>
+
+        <div class="product-card">
+            <h2>مکمل گرافکس ڈیزائن ڈیٹا</h2>
+            <div class="price">Rs. 499</div>
+            <p style="font-size: 13px; color: #94a3b8;">لوگو، بینرز اور سوشل میڈیا ٹیمپلیٹس</p>
+            <a href="https://api.whatsapp.com/send?phone=923285796978&text=السلام%20علیکم%20Sajid%20Digital%20Hub!%20میں%20گرافکس%20ڈیٹا%20خریدنا%20چاہتا%20ہوں۔" class="whatsapp-link">
+                ابھی خریدیں (WhatsApp)
+            </a>
+        </div>
+
+        <div class="product-card">
+            <h2>Premium Shopify Themes</h2>
+            <div class="price">Rs. 499</div>
+            <p style="font-size: 13px; color: #94a3b8;">پروفیشنل ڈراپ شپنگ اسٹور بنائیں</p>
+            <a href="https://api.whatsapp.com/send?phone=923285796978&text=السلام%20علیکم%20Sajid%20Digital%20Hub!%20میں%20Shopify%20Themes%20خریدنا%20چاہتا%20ہوں۔" class="whatsapp-link">
+                ابھی خریدیں (WhatsApp)
+            </a>
+        </div>
+
+        <div class="account-info">
+            <p>ایزی پیسہ / جاز کیش اکاؤنٹ:</p>
+            <h3 style="color: var(--primary); margin: 5px 0;">03285796978</h3>
+            <p style="font-size: 12px;">پیمنٹ کے بعد اسکرین شاٹ واٹس ایپ پر بھیجیں</p>
+        </div>
+    </div>
+
+</body>
+</html>
